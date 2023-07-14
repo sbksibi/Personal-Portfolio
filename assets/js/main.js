@@ -278,3 +278,25 @@ function showSlides(n) {
   }
   slides[slideIndex-1].style.display = "block";
 } 
+
+var redhatModal = document.getElementById("redhat-modal");
+var ciscoModal = document.getElementById("cisco-modal");
+
+var redhatCert = document.getElementById("redhat-cert");
+var ciscoCert = document.getElementById("cisco-cert");
+
+redhatCert.onclick = () => {
+  redhatModal.classList.toggle("hidden");
+};
+
+ciscoCert.onclick = () => {
+  ciscoModal.classList.toggle("hidden");
+};
+
+redhatModal.onclick = () => {
+  redhatModal.classList.toggle("hidden");
+}
+
+ciscoModal.onclick = () => {
+  ciscoModal.classList.toggle("hidden");
+}
