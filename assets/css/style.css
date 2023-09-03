@@ -1204,6 +1204,8 @@ section .container {
 
 .projecttext {
   margin: 30px;
+  text-align: left;
+  text-indent: 20px;
 }
 
 
